@@ -1,0 +1,438 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.header-container{
+  display: flex;
+  width: 100%;
+  height: 15dvh;
+  align-items: center;
+  justify-content: center;
+  column-gap: 35%;
+  background-color: aliceblue;
+}
+.header-left{
+  display: flex;
+  align-items: center;
+  column-gap: 1px;
+}
+#logo1{
+  width: 70px;
+  height: auto;
+  border-radius: 10px;
+}
+.header-title{
+  font-family: serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding-bottom: 5px;
+  color: hsl(0, 1%, 5%);
+}
+.header-right{
+  display: flex;
+  column-gap: 25px;
+}
+.nav-item{
+  cursor: pointer;
+  font-family: serif;
+  font-size: 1.1em;
+  color: hsl(0, 1%, 10%);
+  box-sizing: border-box;
+  position: relative;
+}
+#nav-items{
+  color: hsl(0, 1%, 10%);
+}
+.nav-item:hover{
+  font-family: serif;
+  text-decoration: underline;
+  color: black;
+  transform: scale(1.05);
+  transition: 0.2s ease-out;
+}
+
+                                    /**Login page decoration**/
+
+
+.login-container{
+  height: 100dvh;
+  width: 100%;
+  background: #1b0c24;
+  background: linear-gradient(128deg, rgba(27, 12, 36, 1) 0%, rgba(39, 4, 64, 1) 0%, rgba(95, 15, 166, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.login-box{
+  background-color: aliceblue;
+  height: 60dvh;
+  width: 25%;
+  min-width:40dvh;
+  border-radius: 12px;
+}
+
+.login-title{
+  height: 12dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  font-family: serif;
+  color: hsl(0, 1%, 15%);
+}
+
+.login-detail{
+  height: 25dvh;
+  width: 100%;
+}
+
+#username1{
+  font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+#username2{
+  font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.password-input{
+  display: flex;
+  justify-content: center;
+}
+.username-input{
+  display: flex;
+  justify-content: center;
+}
+#input{
+  background-color: aliceblue;
+
+  margin-top: 10px;
+  height: 17px;
+  width: 65%;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid black;
+  padding-left: 3px;
+  padding-bottom: 2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.login-button{
+  height: 10dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.login-btn{
+  height: 30px;
+  width: 120px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(95, 15, 166, 1);
+  color: aliceblue;
+  font-size: 1rem;
+  border-radius: 25px ;
+  border: none;
+  cursor: pointer;
+}
+.login-btn:hover{
+  background-color: rgba(39, 4, 64, 1);
+}
+.login-signup{
+  font-size: small;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  color: hsl(0, 0%, 17%);
+  margin-top: 5px;
+}
+#login-createlink{
+  cursor: pointer;
+}
+#login-createlink:hover{
+  color:rgba(39, 4, 64, 1);
+}
+
+                          /*Content Part Is Start Now*/
+                      
+                        
+.content-container{
+  background-color: aliceblue;
+  height: 75dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-title1{
+  width: 30%;
+  text-align: center;
+  margin-top: 3%;
+}
+.title1{
+  font-size: 3rem;
+  font-weight: 550;
+  font-family:'Times New Roman', Times, serif;
+  color: hsl(0, 0%, 15%);
+}
+.content-title2{
+  text-align: center;
+  margin-top: 1%;
+  width: 40%;
+}
+.title2{
+  font-size: 2rem;
+  font-weight: 300;
+  font-family:'Times New Roman', Times, serif;
+  color: hsl(0, 0%, 20%);
+}
+.content-title3{
+  text-align: center;
+  margin-top: 1%;
+  width: 60%;
+}
+.title3{
+  font-size: 1rem;
+  font-weight: 300;
+  font-family:'Times New Roman', Times, serif;
+  color: hsl(0, 0%, 25%);
+}
+.content-textbtn{
+  text-align: center;
+  margin-top: 3.5%;
+  width: 20%;
+  height: 10%;
+}
+.test-btn{
+  width: 80%;
+  height: 100%;
+  color: hsl(0, 0%, 13%);
+  background-color: aliceblue;
+  font-size: 1.5rem;
+  border: 2px solid hsl(0, 0%, 13%);
+  border-radius: 22px;
+  cursor: pointer;
+}
+.test-btn:hover{
+  font-size: 1.5rem;
+  transform: scale(1.01);
+  transition: 0.1s ease-in-out ;
+}
+.footer-container{
+  height: 10dvh;
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-panel{
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 20%);
+  font-family: serif;
+}
+.question-container{
+  background-image: linear-gradient(to right top, #170d42, #2d2069, #443494, #5b4ac1, #7361f0);
+  width: 100%;
+  min-width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+.question-title{
+  margin: 30px auto;
+  font-size: 3rem;
+  color: aliceblue;
+}
+.question-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.question{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.ques{
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-family: serif;
+}
+.ans{
+  margin-left: 10%;
+  margin-bottom: 4px;
+}
+#ans5{
+  margin-bottom: 10px;
+}
+
+.card{
+  width: 100%;
+  border: 1.5px solid hsl(0, 5%, 8%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.test-footer{
+  width: 100%;
+  height: 15dvh;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 15%;
+}
+.back-btn{
+  font-size: 1.4rem;
+  font-family: serif;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  border-radius: 18px;
+  border: 2px solid hsl(0, 0%, 25%);
+}
+.clear-btn{
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-family: serif;
+  height: 40px;
+  width: 120px;
+  border-radius: 18px;
+  border: 2px solid hsl(0, 0%, 25%);
+}
+.submit-btn{
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-family: serif;
+  height: 40px;
+  width: 120px;
+  border-radius: 18px;
+  border: 2px solid hsl(0, 0%, 25%);
+}
+
+
+                                              /*signup styling here !!!!!!!!!!!!!!!!!*/
+
+                                      
+
+.signup-container{
+  height: 100dvh;
+  width: 100%;
+  background: #1b0c24;
+  background: linear-gradient(128deg, rgba(27, 12, 36, 1) 0%, rgba(39, 4, 64, 1) 0%, rgba(95, 15, 166, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.signup-box{
+  background-color: aliceblue;
+  height:70dvh;
+  width: 25%;
+  min-width:40dvh;
+  border-radius: 12px;
+}
+.signup-title{
+  height: 12dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  font-family: serif;
+  color: hsl(0, 1%, 15%);
+}
+.signup-detail{
+  height: 38dvh;
+  width: 100%;
+}
+#signup-name{
+  font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+#signup-mail{
+  font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+#signup-pass{
+  font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.signup-button{
+  height: 10dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1px;
+}
+.signup-btn{
+  height: 30px;
+  width: 120px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(95, 15, 166, 1);
+  color: aliceblue;
+  font-size: 1rem;
+  border-radius: 25px ;
+  border: none;
+  cursor: pointer;
+}
+#signup-input{
+  background-color: aliceblue;
+
+  margin-top: 10px;
+  height: 17px;
+  width: 65%;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid black;
+  padding-left: 3px;
+  padding-bottom: 2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.signup-signup{
+  font-size: small;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  color: hsl(0, 0%, 17%);
+  margin-top: 0px;
+}
+#signup-createlink{
+  cursor: pointer;
+}
+#signup-createlink:hover{
+  color:rgba(39, 4, 64, 1);
+}
