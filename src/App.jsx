@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Content from "./Content";
 import Footer from "./Footer";
-import Login from "./login";
+import Login from "./Login";
 import { Routes, Route } from "react-router-dom";
 import "./index.css";
 import Questionnaire from "./Questionnaire";
@@ -26,8 +26,6 @@ function App() {
           <Route path="/Questionnaire" element={<Questionnaire />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Signup" element={<Signup />} />
-          <Route path="/Login" element={<Login />} />
-
         </Routes>
       </div>
     </>

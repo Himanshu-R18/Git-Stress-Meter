@@ -16,7 +16,7 @@ function Header() {
         <div className="nav-item"><NavLink to="/" id="nav-items">Home</NavLink></div>
         <div className="nav-item"><NavLink id="nav-items">Benefits</NavLink></div>
         <div className="nav-item"><NavLink id="nav-items">About Us</NavLink></div>
-        <div className="nav-item"><NavLink to="/login" id="nav-items">Login</NavLink></div>
+        <div className="nav-item"><NavLink to="/Login" id="nav-items">Login</NavLink></div>
       </div>
     </div>
   );
