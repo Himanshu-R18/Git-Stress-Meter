@@ -6,7 +6,7 @@ function Footer(){
 
   return(
     <div className="footer-container">
-      <p className="footer-panel">&copy; {myYear}-{myYear+1} humans Rawat. All Rights Reserved.</p>
+      <p className="footer-panel">&copy; {myYear}-{myYear+1} Himanshu Rawat. All Rights Reserved.</p>
     </div>
   );
 

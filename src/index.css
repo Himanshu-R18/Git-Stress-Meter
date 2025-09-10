@@ -23,8 +23,9 @@
 }
 .header-title{
   font-family: serif;
-  font-size: 1.5em;
-  font-weight: 100;
+  font-size: 1.6em;
+  font-weight: 500;
+  font-family: serif;
   padding-bottom: 5px;
   color: hsl(0, 1%, 5%);
 }
@@ -35,13 +36,15 @@
 .nav-item{
   cursor: pointer;
   font-family: serif;
-  font-size: 1.1em;
+  font-size: 1.3em;
   color: hsl(0, 1%, 10%);
   box-sizing: border-box;
   position: relative;
+  text-decoration: none;
 }
 #nav-items{
   color: hsl(0, 1%, 10%);
+  text-decoration: none;
 }
 .nav-item:hover{
   font-family: serif;
@@ -55,7 +58,7 @@
 
 
 .login-container{
-  height: 100dvh;
+  height: 85dvh;
   width: 100%;
   background: #1b0c24;
   background: linear-gradient(128deg, rgba(27, 12, 36, 1) 0%, rgba(39, 4, 64, 1) 0%, rgba(95, 15, 166, 1) 100%);
@@ -111,8 +114,8 @@
   justify-content: center;
 }
 #input{
-  background-color: aliceblue;
-
+  background-color: #F0F8FF;
+  color: hsl(0, 0%, 10%);
   margin-top: 10px;
   height: 17px;
   width: 65%;
@@ -166,17 +169,37 @@
 
                           /*Content Part Is Start Now*/
                       
-                        
 .content-container{
+  background-image: url(/Stress-Meter/src/assets/positive.jpg);
+  height: 75dvh;
+  width: 100%;
+  display: flex;
+  background-color: aliceblue;
+}              
+.content-left{
   background-color: aliceblue;
   height: 75dvh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.content-right{
+  width: 50%;
+  height: 75dvh;
+  padding-right: 150px;
+  padding-top: 30px;
+}
+#right-image{
+  width: 450px;
+  height: 380px;
+  box-shadow: 7px 7px 15px hsl(0, 0%, 21%);
+  border-radius: 12px;
 }
 .content-title1{
-  width: 30%;
+  width: 50%;
   text-align: center;
   margin-top: 3%;
 }
@@ -188,8 +211,8 @@
 }
 .content-title2{
   text-align: center;
-  margin-top: 1%;
-  width: 40%;
+  margin-top: 3%;
+  width: 50%;
 }
 .title2{
   font-size: 2rem;
@@ -197,22 +220,11 @@
   font-family:'Times New Roman', Times, serif;
   color: hsl(0, 0%, 20%);
 }
-.content-title3{
-  text-align: center;
-  margin-top: 1%;
-  width: 60%;
-}
-.title3{
-  font-size: 1rem;
-  font-weight: 300;
-  font-family:'Times New Roman', Times, serif;
-  color: hsl(0, 0%, 25%);
-}
 .content-textbtn{
   text-align: center;
-  margin-top: 3.5%;
-  width: 20%;
-  height: 10%;
+  margin-top: 6%;
+  width: 40%;
+  height: 15%;
 }
 .test-btn{
   width: 80%;
@@ -334,7 +346,7 @@
                                       
 
 .signup-container{
-  height: 100dvh;
+  height: 85dvh;
   width: 100%;
   background: #1b0c24;
   background: linear-gradient(128deg, rgba(27, 12, 36, 1) 0%, rgba(39, 4, 64, 1) 0%, rgba(95, 15, 166, 1) 100%);
@@ -435,4 +447,76 @@
 }
 #signup-createlink:hover{
   color:rgba(39, 4, 64, 1);
+}
+.benefits-container{
+  height: 85dvh;
+  width: 100vw;
+  background-color: aliceblue;
+}
+.benefits-title{
+  display: flex;
+  font-size: 1.5rem;
+  font-family: serif;
+  color: hsl(0, 0%, 16%);
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+.benefits-body{
+  height: 75dvh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.benefits-image{
+  width: 50%;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  
+}
+#benefits-img{
+  height: 80%;
+  width: 60%;
+  border-radius: 25px 25px 25px 25px;
+  padding-left: 0%;
+  box-shadow: 10px 10px 30px rgb(36, 52, 65);
+}
+.benefits.content{
+  width: 50%;
+  height: 75dvh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.content1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
+  padding-left: 10%;
+  padding-top: 14%;
+  color: hsl(0, 0%, 20%);
+  font-size: 1.05rem;
+}
+.content2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
+  padding-left: 10%;
+  padding-top: 4%;
+  color: hsl(0, 0%, 20%);
+  font-size: 1.05rem;
+}
+.content3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
+  padding-top: 2%;
+  color: hsl(0, 0%, 20%);
+  font-size: 1.05rem;
+}
+.content-list{
+  padding-left: 14%;
 }

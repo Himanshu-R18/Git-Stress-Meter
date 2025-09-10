@@ -6,6 +6,8 @@ import { Routes, Route } from "react-router-dom";
 import "./index.css";
 import Questionnaire from "./Questionnaire";
 import Signup from "./signup";
+import Benefits from "./Benefits";
+import About from "./About";
 
 
 function App() {
@@ -24,8 +26,10 @@ function App() {
             } 
           />
           <Route path="/Questionnaire" element={<Questionnaire />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/Signup" element={<Signup />} />
+          <Route path="/Benefits" element={<><Header /><Benefits /></>} />
+          <Route path="/About" element={<><Header /><About /></>} />
+          <Route path="/Login" element={<><Header /><Login /></>} />
+          <Route path="/Signup" element={<><Header /><Signup /></>} />
         </Routes>
       </div>
     </>
