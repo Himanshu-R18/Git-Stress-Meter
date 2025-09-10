@@ -24,7 +24,7 @@ function Content() {
         </div>
       </div>
       <div className="content-right">
-        <img src="/src/assets/smiles.jpg" alt="title's Image" id="right-image"/>
+        <img src="/smiles.jpg" alt="title's Image" id="right-image"/>
       </div>
     </div>
   );

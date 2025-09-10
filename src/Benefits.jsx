@@ -9,7 +9,7 @@ const Benefits = () => {
       <div className="benefits-body">
         <div className="benefits-image">
           <img
-            src="./src/assets/stress.jpg"
+            src="/stress.jpg"
             alt="depressed person"
             id="benefits-img"
           />

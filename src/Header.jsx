@@ -1,3 +1,4 @@
+
 import { NavLink } from "react-router-dom";
 
 function Header() {
@@ -8,7 +9,7 @@ function Header() {
     <div className="header-container">
       <div className="header-left">
         <div className="header-logo">
-          <img src="/src/assets/logo.png" alt="Project's Logo" id="logo1" />
+          <img src="/logo.png" alt="Project's Logo" id="logo1" />
         </div>
         <div className="header-title">Stress Meter</div>
       </div>
