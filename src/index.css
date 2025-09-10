@@ -5,7 +5,7 @@
 .header-container{
   display: flex;
   width: 100%;
-  height: 15dvh;
+  height: 15vh;
   align-items: center;
   justify-content: center;
   column-gap: 35%;
@@ -58,7 +58,7 @@
 
 
 .login-container{
-  height: 85dvh;
+  height: 85vh;
   width: 100%;
   background: #1b0c24;
   background: linear-gradient(128deg, rgba(27, 12, 36, 1) 0%, rgba(39, 4, 64, 1) 0%, rgba(95, 15, 166, 1) 100%);
@@ -69,14 +69,14 @@
 }
 .login-box{
   background-color: aliceblue;
-  height: 60dvh;
+  height: 60vh;
   width: 25%;
-  min-width:40dvh;
+  min-width:40vh;
   border-radius: 12px;
 }
 
 .login-title{
-  height: 12dvh;
+  height: 12vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -87,7 +87,7 @@
 }
 
 .login-detail{
-  height: 25dvh;
+  height: 25vh;
   width: 100%;
 }
 
@@ -129,7 +129,7 @@
   justify-content: center;
 }
 .login-button{
-  height: 10dvh;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -171,14 +171,14 @@
                       
 .content-container{
   background-image: url(/Stress-Meter/src/assets/positive.jpg);
-  height: 75dvh;
+  height: 75vh;
   width: 100%;
   display: flex;
   background-color: aliceblue;
 }              
 .content-left{
   background-color: aliceblue;
-  height: 75dvh;
+  height: 75vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -188,7 +188,7 @@
 }
 .content-right{
   width: 50%;
-  height: 75dvh;
+  height: 75vh;
   padding-right: 150px;
   padding-top: 30px;
 }
@@ -306,7 +306,7 @@
 
 .test-footer{
   width: 100%;
-  height: 15dvh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   margin-top: 40px;
@@ -346,7 +346,7 @@
                                       
 
 .signup-container{
-  height: 85dvh;
+  height: 85vh;
   width: 100%;
   background: #1b0c24;
   background: linear-gradient(128deg, rgba(27, 12, 36, 1) 0%, rgba(39, 4, 64, 1) 0%, rgba(95, 15, 166, 1) 100%);
@@ -357,13 +357,13 @@
 }
 .signup-box{
   background-color: aliceblue;
-  height:70dvh;
+  height:70vh;
   width: 25%;
-  min-width:40dvh;
+  min-width:40vh;
   border-radius: 12px;
 }
 .signup-title{
-  height: 12dvh;
+  height: 12vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -373,7 +373,7 @@
   color: hsl(0, 1%, 15%);
 }
 .signup-detail{
-  height: 38dvh;
+  height: 38vh;
   width: 100%;
 }
 #signup-name{
@@ -398,7 +398,7 @@
   cursor: pointer;
 }
 .signup-button{
-  height: 10dvh;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -449,13 +449,13 @@
   color:rgba(39, 4, 64, 1);
 }
 .benefits-container{
-  height: 85dvh;
+  height: 85vh;
   width: 100vw;
   background-color: aliceblue;
 }
 .benefits-title{
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.7em;
   font-family: serif;
   color: hsl(0, 0%, 16%);
   display: flex;
@@ -463,7 +463,7 @@
   padding-top: 1%;
 }
 .benefits-body{
-  height: 75dvh;
+  height: 75vh;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -486,7 +486,7 @@
 }
 .benefits.content{
   width: 50%;
-  height: 75dvh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -498,7 +498,7 @@
   padding-left: 10%;
   padding-top: 14%;
   color: hsl(0, 0%, 20%);
-  font-size: 1.05rem;
+  font-size: 1.1em;
 }
 .content2{
   display: flex;
@@ -507,7 +507,7 @@
   padding-left: 10%;
   padding-top: 4%;
   color: hsl(0, 0%, 20%);
-  font-size: 1.05rem;
+  font-size: 1.1em;
 }
 .content3{
   display: flex;
@@ -515,7 +515,7 @@
   width: 40vw;
   padding-top: 2%;
   color: hsl(0, 0%, 20%);
-  font-size: 1.05rem;
+  font-size: 1.1em;
 }
 .content-list{
   padding-left: 14%;
