@@ -8,7 +8,7 @@
   height: 15vh;
   align-items: center;
   justify-content: center;
-  column-gap: 35%;
+  column-gap: 30%;
   background-color: aliceblue;
 }
 .header-left{
@@ -17,7 +17,7 @@
   column-gap: 1px;
 }
 #logo1{
-  width: 70px;
+  width: 100px;
   height: auto;
   border-radius: 10px;
 }
@@ -170,32 +170,35 @@
                           /*Content Part Is Start Now*/
                       
 .content-container{
-  background-image: url(/Stress-Meter/src/assets/positive.jpg);
   height: 75vh;
   width: 100%;
   display: flex;
   background-color: aliceblue;
+
 }              
 .content-left{
   background-color: aliceblue;
   height: 75vh;
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 50px;
   padding-top: 50px;
+  
 }
 .content-right{
+  
   width: 50%;
   height: 75vh;
-  padding-right: 150px;
+  padding-right: 20px;
   padding-top: 30px;
 }
 #right-image{
-  width: 450px;
+  width: 420px;
   height: 380px;
-  box-shadow: 7px 7px 15px hsl(0, 0%, 21%);
+  border: 2px solid green;
+  box-shadow: 3px 3px 25px rgb(1, 160, 1);
   border-radius: 12px;
 }
 .content-title1{
@@ -230,16 +233,19 @@
   width: 80%;
   height: 100%;
   color: hsl(0, 0%, 13%);
-  background-color: aliceblue;
-  font-size: 1.5rem;
-  border: 2px solid hsl(0, 0%, 13%);
+  background-color: rgb(0, 200, 0);
+  font-size: 28px;
+  border: 2px solid rgb(0, 100, 0);
   border-radius: 22px;
   cursor: pointer;
+  box-shadow: 3px 3px 1px green;
 }
 .test-btn:hover{
-  font-size: 1.5rem;
+  background-color: rgb(0, 210, 0);
+  box-shadow: 3px 3px 1px rgb(0,150, 0);
+  font-size: 27px;
   transform: scale(1.01);
-  transition: 0.1s ease-in-out ;
+  transition: 0.05s ease-in-out ;
 }
 .footer-container{
   height: 10dvh;
@@ -255,7 +261,7 @@
   font-family: serif;
 }
 .question-container{
-  background-image: linear-gradient(to right top, #170d42, #2d2069, #443494, #5b4ac1, #7361f0);
+  background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
   width: 100%;
   min-width: 50%;
   height: 100%;
@@ -268,7 +274,7 @@
 .question-title{
   margin: 30px auto;
   font-size: 3rem;
-  color: aliceblue;
+  color: hsl(0, 0%, 15%);
 }
 .question-box{
   display: flex;
@@ -319,7 +325,8 @@
   height: 40px;
   width: 120px;
   border-radius: 18px;
-  border: 2px solid hsl(0, 0%, 25%);
+  border: 2px solid #1C39BB;
+  box-shadow: 2px 2px 8px #1C39BB;
 }
 .clear-btn{
   cursor: pointer;
@@ -328,7 +335,8 @@
   height: 40px;
   width: 120px;
   border-radius: 18px;
-  border: 2px solid hsl(0, 0%, 25%);
+  border: 2px solid #008000;
+  box-shadow: 2px 2px 8px #008000;
 }
 .submit-btn{
   cursor: pointer;
@@ -337,7 +345,8 @@
   height: 40px;
   width: 120px;
   border-radius: 18px;
-  border: 2px solid hsl(0, 0%, 25%);
+  border: 2px solid #ED1C24;
+  box-shadow: 2px 2px 8px #ED1C24;
 }
 
 
@@ -457,7 +466,7 @@
   display: flex;
   font-size: 1.7em;
   font-family: serif;
-  color: hsl(0, 0%, 16%);
+  color: hsl(0, 0%, 15%);
   display: flex;
   justify-content: center;
   padding-top: 1%;
@@ -482,6 +491,7 @@
   width: 60%;
   border-radius: 25px 25px 25px 25px;
   padding-left: 0%;
+  border: 1px solid hsl(0, 0%, 16%);
   box-shadow: 10px 10px 30px rgb(36, 52, 65);
 }
 .benefits.content{
@@ -497,8 +507,8 @@
   width: 40vw;
   padding-left: 10%;
   padding-top: 14%;
-  color: hsl(0, 0%, 20%);
-  font-size: 1.1em;
+  color: hsl(0, 0%, 18%);
+  font-size: 19px;
 }
 .content2{
   display: flex;
@@ -506,17 +516,73 @@
   width: 40vw;
   padding-left: 10%;
   padding-top: 4%;
-  color: hsl(0, 0%, 20%);
-  font-size: 1.1em;
+  color: hsl(0, 0%, 18%);
+  font-size: 19px;
 }
 .content3{
   display: flex;
   flex-wrap: wrap;
   width: 40vw;
   padding-top: 2%;
-  color: hsl(0, 0%, 20%);
-  font-size: 1.1em;
+  color: hsl(0, 0%, 18%);
+  font-size: 18px;
 }
 .content-list{
   padding-left: 14%;
+}
+                                   /*About page is here*/
+
+
+.about-container{
+  height: 85vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#vision{
+  width: 400px;
+  height: 240px;
+  border: 2px solid darkblue;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px blue;
+}
+#mission{
+  width: 400px;
+  height: 240px;
+  border: 2px solid darkgreen;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px green;
+}
+.about-bottom{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+  align-items: center;
+  padding-top: 20px;
+}
+.about-list{
+  padding-left: 25px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.about-top{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+  border-right: 2px solid hsl(0, 0%, 25%);
+  align-items: center;
+  padding-top: 20px;
+}
+.vision-title{
+  width: 400px;
+  flex-wrap: wrap;
+}.vision-content{
+  margin-top: 15px;
 }
